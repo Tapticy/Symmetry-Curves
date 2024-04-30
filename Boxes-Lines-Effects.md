@@ -18,7 +18,7 @@
 
 
 ## Adding this angle
-Makes the lines more wavy moving in a different dicrection: 
+Makes the lines more wavy moving in  different dicrection: 
 `this.angle = 0;` First you create a variable in the Particles class `constructor(){}`
 `this.angle += 0.5;` This will go in the `update(){}` method 
 `this.x += this.speedX + Math.sin(this.angle)` And added it to the speedX and speedY with Math sin method inside it's parameter like this-`sin(this.angle)`.
